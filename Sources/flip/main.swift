@@ -3,7 +3,6 @@ import Spinner
 import Foundation
 
 struct Flip: ParsableCommand {
-
     @Option(name: .shortAndLong, help: "The number of coins to repeat flip.")
     var coins: Int?
 
@@ -11,9 +10,7 @@ struct Flip: ParsableCommand {
     var animation: Bool = false
 
     mutating func run() throws {
-        let count = coins ?? 1
-
-        for _ in 1...count {
+        for _ in 1 ... (coins ?? 1) {
             let spinner = Spinner(.flip, "")
             if animation {
                 spinner.start()
