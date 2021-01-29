@@ -6,7 +6,7 @@ struct Flip: ParsableCommand {
     @Option(name: .shortAndLong, help: "The number of coins to flip.")
     var coins: Int?
 
-    @Flag(name: .shortAndLong, help: "Animated output")
+    @Flag(name: .shortAndLong, help: "Animated output.")
     var animation: Bool = false
 
     mutating func run() throws {
