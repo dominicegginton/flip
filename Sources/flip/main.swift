@@ -3,7 +3,7 @@ import Spinner
 import Foundation
 
 struct Flip: ParsableCommand {
-    @Option(name: .shortAndLong, help: "The number of coins to repeat flip.")
+    @Option(name: .shortAndLong, help: "The number of coins to flip.")
     var coins: Int?
 
     @Flag(name: .shortAndLong, help: "Animated output")
