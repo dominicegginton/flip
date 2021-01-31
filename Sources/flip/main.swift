@@ -1,6 +1,6 @@
 import ArgumentParser
-import Spinner
 import Foundation
+import Spinner
 
 struct Flip: ParsableCommand {
     @Option(name: .shortAndLong, help: "The number of coins to flip.")
