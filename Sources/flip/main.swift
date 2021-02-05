@@ -9,9 +9,15 @@ struct Flip: ParsableCommand {
     @Flag(name: .shortAndLong, help: "Animated output.")
     var animation: Bool = false
 
+    @Flag(name: .long, help: "Colored output.")
+    var color: Bool = false
+
     mutating func run() throws {
         for _ in 1 ... (coins ?? 1) {
             let spinner = Spinner(.flip, "")
+            if color {
+                spinner.updateColor(.yellow)
+            }
             if animation {
                 spinner.start()
                 sleep(1)
