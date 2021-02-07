@@ -1,3 +1,5 @@
+.PHONY: build install uninstall clean
+
 build:
 	swift build -c release --disable-sandbox
 
@@ -9,5 +11,3 @@ uninstall:
 
 clean:
 	rm -rf .build
-
-.PHONY: build install uninstall clean
