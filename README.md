@@ -46,4 +46,4 @@ $ sudo make install
 ```
 
 ## Contributing
-You are welcome to contribute by submitting a new bug report and features request on te [GitHub Issue tracker](https://github.com/dominicegginton/flip/issues/new) and don't hesitate to submit a pull request I am always open for new contributes to hope on board.
+You are welcome to contribute by submitting a new bug report and features request on te [GitHub Issue tracker](https://github.com/dominicegginton/flip/issues/new) and don't hesitate to submit a pull request I am always open for new contributes to hop on board.
