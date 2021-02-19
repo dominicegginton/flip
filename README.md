@@ -10,17 +10,31 @@ Flip was designed to help you make them difficult decisions quickly right from y
 
 #### Flip a coin
 
+Invoke the `flip` command to flip coins in your command line.
+
 ``` shell
 $ flip
 ```
 
 #### Flip multiple coins
 
+Use the `--coins or -c` argument and pass a number to flip serval coins in one command.
+
 ``` shell
 $ flip -c 3
 ```
 
+#### Disable animated and colored output
+
+Need to disable the colored or animated output for instant coin flips, piping output to different commands or easy scraping of outputted text ? Use the `--disable or -d` argument.
+
+``` shell
+$ flip --disable
+```
+
 #### Accessing help
+
+If you need help use the built in help screen by passing the `--help or -h` argument.
 
 ``` shell
 $ flip -h
