@@ -1,0 +1,16 @@
+name: CI
+on: push
+jobs:
+  test:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macOS-latest, ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build for production and install
+        run: sudo make install
+      - name: Run flip
+        run: flip
