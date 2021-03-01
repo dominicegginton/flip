@@ -26,7 +26,7 @@ $ flip -c 3
 
 #### Disable animated and colored output
 
-Need to disable the colored or animated output for instant coin flips, piping output to different commands or easy scraping of outputted text ? Use the `--disable or -d` argument.
+Need to disable the colored or animated output for instant coin flips, piping output to different commands or easy scraping of outputted text? Use the `--disable or -d` argument.
 
 ``` shell
 $ flip --disable
