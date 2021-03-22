@@ -42,7 +42,7 @@ $ flip -h
 
 ## Install & Updating
 
-Currently we suggest installing from source, this will require [**swift**](https://swift.org) as a make dependency. Its suggested that you checkout a tagged version when installing or updating for stability, use the `git tag` command to see all tags or see the [GitHub Releases](https://github.com/dominicegginton/flip/releases) page. I am working on bringing flip to major package managers soon such as **homebrew**, the **AUR** and **APT**.
+Currently we suggest installing from source, this will require [**swift**](https://swift.org) as a make dependency. Its suggested that you checkout a tagged version when installing or updating for stability (use the `git tag` command to see all tags or see the [GitHub Releases](https://github.com/dominicegginton/flip/releases) page). I am working on bringing flip to major package managers soon such as **homebrew**, the **AUR** and **APT**.
 
 ### Install from source
 
