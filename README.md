@@ -1,7 +1,5 @@
 # Flip
 
-#### Flip coins in your command line
-
 ![](./assets/carbon.svg)
 
 Flip was designed to help you make them difficult decisions quickly right from your command line and was initially built to answer the common whats for dinner conundrum. I ate dinner late that night after learning the swift argument parser library, all in the name of bringing a small lightweight coin flip CLI tool to the open source community.
