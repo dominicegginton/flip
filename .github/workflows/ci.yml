@@ -10,7 +10,9 @@ jobs:
         os: [macOS-latest, ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
-      - name: Build for production and install
+      - name: Build for production
+        run: sudo make build
+      - name: Install
         run: sudo make install
       - name: Run flip
         run: flip
