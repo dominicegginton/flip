@@ -3,7 +3,7 @@
 info:
 	@echo -e '\033[1;32mFlip\033[0m'
 	@echo -n 'Version: '
-	@git describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+	@git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
 	@echo  'Homepage: https://github.com/dominicegginton/flip'
 	@echo 'Bugs/Issues: https://github.com/dominicegginton/flip/issues'
 	@echo 'Maintainer: Dominic Egginton <dominic.egginton@gmail.com>'
