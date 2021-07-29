@@ -21,6 +21,10 @@ OPTIONS:
 
 **Flip** is provided by both [flip-bin]() and [flip-git]() in the AUR for Arch based linux distributions.
 
+### Homebrew
+
+*Coming Soon*
+
 ### From source
 
 Firstly before installing **Flip** from source please check the required build dependencies:
