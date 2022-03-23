@@ -23,7 +23,9 @@ OPTIONS:
 
 ### Homebrew
 
-*Coming Soon*
+``` shell
+brew install dominicegginton/formulae/flip
+```
 
 ### From source
 
