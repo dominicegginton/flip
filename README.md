@@ -1,8 +1,6 @@
 # Flip
 
-![](./assets/screenshot.svg)
-
-**Flip** was designed to help you make difficult decisions quickly, it's simple but effective, **Flip** just flips coins directly in your command line. Initially built to answer the common whats for dinner conundrum, but now serves as a small project for learning about binary distribution for different platforms and package management systems.
+**Flip** was designed to help you make difficult decisions quickly, it's simple but effective, just **flip** coins directly in your command line. Initially built to answer the common what's for dinner conundrum, but now serves as a small project for learning about binary distribution for different platforms and package management systems.
 
 ## Documentation
 
