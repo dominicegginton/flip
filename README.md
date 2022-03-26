@@ -1,5 +1,7 @@
 # Flip
 
+![carbon (4)](https://user-images.githubusercontent.com/28626241/160245421-0a4cd0a8-354b-49c5-8be1-6e001d8f9240.svg)
+
 **Flip** was designed to help you make difficult decisions quickly, it's simple but effective, just **flip** coins directly in your command line. Initially built to answer the common what's for dinner conundrum, but now serves as a small project for learning about binary distribution for different platforms and package management systems.
 
 ## Documentation
