@@ -23,7 +23,7 @@ struct Flip: ParsableCommand {
                 let spinner = Spinner(.flip, "", color: .yellow)
                 spinner.start()
                 sleep(1)
-                spinner.stop(finalFrame: "•", text: result)
+                spinner.stop(frame: "•", message: result)
             }
         }
     }
