@@ -1,0 +1,93 @@
+{
+  "object": {
+    "artifacts": [],
+    "dependencies": [
+      {
+        "basedOn": null,
+        "packageRef": {
+          "identity": "bluesignals",
+          "kind": "remoteSourceControl",
+          "location": "https://github.com/IBM-Swift/BlueSignals.git",
+          "name": "Signals"
+        },
+        "state": {
+          "checkoutState": {
+            "revision": "1f6c49e186c8a4eeef87ba14f2f97b8646559d13",
+            "version": "1.0.200"
+          },
+          "name": "sourceControlCheckout"
+        },
+        "subpath": "BlueSignals"
+      },
+      {
+        "basedOn": null,
+        "packageRef": {
+          "identity": "nanoseconds",
+          "kind": "remoteSourceControl",
+          "location": "https://github.com/dominicegginton/Nanoseconds",
+          "name": "Nanoseconds"
+        },
+        "state": {
+          "checkoutState": {
+            "revision": "a279f375fd88d91102d7567d7f93cbbfb85f3a53",
+            "version": "1.1.3"
+          },
+          "name": "sourceControlCheckout"
+        },
+        "subpath": "Nanoseconds"
+      },
+      {
+        "basedOn": null,
+        "packageRef": {
+          "identity": "rainbow",
+          "kind": "remoteSourceControl",
+          "location": "https://github.com/onevcat/Rainbow",
+          "name": "Rainbow"
+        },
+        "state": {
+          "checkoutState": {
+            "revision": "e0dada9cd44e3fa7ec3b867e49a8ddbf543e3df3",
+            "version": "4.0.1"
+          },
+          "name": "sourceControlCheckout"
+        },
+        "subpath": "Rainbow"
+      },
+      {
+        "basedOn": null,
+        "packageRef": {
+          "identity": "spinner",
+          "kind": "remoteSourceControl",
+          "location": "https://github.com/dominicegginton/Spinner",
+          "name": "Spinner"
+        },
+        "state": {
+          "checkoutState": {
+            "revision": "16ac0c404320005936579f1d6454bb88dbd8d71a",
+            "version": "2.1.0"
+          },
+          "name": "sourceControlCheckout"
+        },
+        "subpath": "Spinner"
+      },
+      {
+        "basedOn": null,
+        "packageRef": {
+          "identity": "swift-argument-parser",
+          "kind": "remoteSourceControl",
+          "location": "https://github.com/apple/swift-argument-parser",
+          "name": "swift-argument-parser"
+        },
+        "state": {
+          "checkoutState": {
+            "revision": "6b2aa2748a7881eebb9f84fb10c01293e15b52ca",
+            "version": "0.5.0"
+          },
+          "name": "sourceControlCheckout"
+        },
+        "subpath": "swift-argument-parser"
+      }
+    ]
+  },
+  "version": 6
+}

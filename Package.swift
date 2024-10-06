@@ -6,7 +6,7 @@ let package = Package(
     name: "flip",
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
-        .package(url: "https://github.com/dominicegginton/Spinner", from: "2.0.0")
+        .package(url: "https://github.com/dominicegginton/Spinner", from: "2.1.0")
     ],
     targets: [
         .target(name: "flip", dependencies: [
